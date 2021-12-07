@@ -8,7 +8,8 @@ pretražuje podstring “GEEK”:
 Dužine stringova su predstavljene sa desne strane, respektivno. Umesto upoređivanja 
 karaktera po karakter algoritam će najpre izračunati hash vrednosti podstringa “GEEK” i
 onda će za njegovu dužinu(m) uzeti m prvih karaktera u tekstu i izračunati njegovu hash 
-vrednost kao što je prikazano na fotografiji ispod: 
+vrednost kao što je prikazano na fotografiji ispod:
+
 ![18](https://user-images.githubusercontent.com/61964257/145113519-020b088c-cb48-4c22-bc85-08f7c4527015.PNG)
 
 Na slici iznad se vidi da su hash vrednosti oba stringa jednaka nekom broju x i kada se te 
