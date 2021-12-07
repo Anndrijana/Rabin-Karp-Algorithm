@@ -3,6 +3,7 @@
 Algoritam radi na principu upoređivanja hash vrednosti umesto naivnog upoređivanja
 svih karaktera. Na narednoj fotografiji prikazan je primer gde se u stringu “GEEKSFORGEEKS”
 pretražuje podstring “GEEK”:
+
 ![17](https://user-images.githubusercontent.com/61964257/145113514-c98e4882-61ef-4899-bcb6-4211a2a5c1a6.PNG)
 
 Dužine stringova su predstavljene sa desne strane, respektivno. Umesto upoređivanja 
@@ -22,11 +23,13 @@ G ispada, a karakter S se dodaje na kraj. Na ovaj način ako se implementira pom
 računanje hash vrednosti onda se kompletan hash ne mora opet izračunavati nego je 
 moguće samo rehash-ovanje tj. preračunavanje.
 Na slici ispod vidimo da se sledeće hash vrednosti ne poklapaju i onda se taj indeks ne pamti.
+
 ![19](https://user-images.githubusercontent.com/61964257/145113521-846878e8-180c-4657-90f9-0776c36abf0d.PNG)
 
 Postupak se ponavlja sve dok se ne nađu sva ponavljanja datog podstringa u tekstu. Ako je 
 dati podstring jos negde u tekstu za njega će nam hash funkcija opet vratiti istu vrednost i moći 
 ćemo i njegov indeks da zapamtimo, kao što je dato na fotografiji ispod:
+
 ![20](https://user-images.githubusercontent.com/61964257/145113522-18a778df-19d7-4164-ac66-37b8879e4922.PNG)
 
 ## Pomerajuće računanje hash-a
